@@ -4,3 +4,15 @@
     position: fixed;
     width: 100%;
   }
+
+#navbar-custom {
+    background-color: #433E49;
+}
+
+#logohome {
+    height: 200px;
+    background-color: #F3E8EB;
+    padding: 0;
+    margin: 0;
+    font-size: xx-large;
+}
