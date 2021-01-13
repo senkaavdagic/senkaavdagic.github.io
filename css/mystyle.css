@@ -1,0 +1,9 @@
+body {
+    padding-top: 3.5rem;
+    min-height: 75rem;
+}
+
+#jumbo-container {
+    padding: 4rem;
+    text-align: right;
+}
