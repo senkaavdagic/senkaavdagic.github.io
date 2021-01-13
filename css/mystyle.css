@@ -1,6 +1,9 @@
-.navbar-fixed {
-    top: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-  }
+body {
+    padding-top: 3.5rem;
+    min-height: 75rem;
+}
+
+#jumbo-container {
+    padding: 4rem;
+    text-align: right;
+}
