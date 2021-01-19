@@ -1,18 +1,27 @@
-.navbar-fixed {
-    top: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-  }
-
-#navbar-custom {
-    background-color: #433E49;
+html {
+    height: 100%;
 }
 
-#logohome {
-    height: 200px;
-    background-color: #F3E8EB;
-    padding: 0;
-    margin: 0;
-    font-size: xx-large;
+body {
+    padding-top: 3.5rem;
+	height: 100%;
+	
 }
+
+#jumbo-container {
+    padding: 4rem;
+    text-align: right;
+}
+
+.footer {
+   
+	margin-top: auto;
+	min-height: 10vh;
+	
+}
+
+.footer p {
+    margin-bottom: 0%;
+	
+}
+
