@@ -1,0 +1,22 @@
+		h3 {
+		color: FireBrick;
+		font-family: 'Amatic SC', cursive;
+		font-weight: 700;
+	}
+
+	.card-img-overlay {
+		top: auto;
+		padding: 1rem;
+		background-color: rgba(255,255,255,.3);
+	}
+	
+	.card-img-overlay h5 {
+		color: white; 
+	}
+	
+	
+.card:hover{
+    transition: transform 1s ease;
+    transform: scale(1.1);
+
+}

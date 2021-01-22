@@ -19,11 +19,24 @@
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/small.css">
-	<link rel="stylesheet" href="css/medium.css">
-	<link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/mystyle.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mystyle.css">
+	    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 </head>
 <body>
 	<!--<div id="nav-placeholder"></div> -->
@@ -42,5 +55,75 @@
             </ul>
         </div>
 </nav>
+
+<main>
+	<div class="jumbotron jumbotron-fluid" id="jumbotron-custom">
+	<!-- Place text-center inside the div to center text, also think of typography does not look cool so far-->
+            <div class="container text-center" id="jumbo-container">
+                <h3 class="display-3">Photo gallery</h3>
+                <p>This is my sweet collection of items handcrafted one stitch at the time.</p>
+            </div>
+    </div>
+	<div class="container">
+	
+	<!-- Create the modal, create pageing TODO -->
+	<div class="row">
+	
+	<!-- Note that the first card is created with the title overlaying the image, in a transparent "box" with overridden top property; the rest of cards are image on top, title below the image.  Choose the best option-->
+		<div class="col-12 col-md-4 ">
+			<div class="card mb-4">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#a3a3a3"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-img-overlay ">
+					<h5 class="card-title ">Card title</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 ">
+			<div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#a3a3a3"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">card title</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 ">
+			<div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#a3a3a3"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">card title</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 ">
+			<div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#a3a3a3"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">card title</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 ">
+			<div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#a3a3a3"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">card title</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 ">
+			<div class="card mb-4 shadow-sm">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#a3a3a3"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">card title</h5>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+	</div>
+</main>
+<footer class="footer mt-3 container border-top">
+            <p class=" p-2 "> Copyright 2021</p>
+        </footer>
  </body>
 </html>
