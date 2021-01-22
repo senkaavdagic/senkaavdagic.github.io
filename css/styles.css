@@ -1,0 +1,38 @@
+h3 {
+  color: FireBrick;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700; }
+
+.card-img-overlay {
+  top: auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.3); }
+
+.card-img-overlay h5 {
+  color: white; }
+
+@media only screen and (min-width: 768px) {
+  h3 {
+    color: FireBrick;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700; }
+
+  h2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700; }
+
+  .my-article {
+    padding-left: 1px;
+    padding-right: 1px; }
+
+  #jumbo-container {
+    padding: 4rem;
+    text-align: right; } }
+/* end of media query*/
+@media only screen and (min-width: 1200px) {
+  #jumbo-container {
+    min-width: 70vw;
+    text-align: right; } }
+/* end of media query*/
+
+/*# sourceMappingURL=styles.css.map */

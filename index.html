@@ -19,16 +19,16 @@
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/small.css">
-	<link rel="stylesheet" href="css/medium.css">
-	<link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/mystyle.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mystyle.css">
 
 </head>
 
 <body>
+<!-- navbar-expand-md means that at the md size of viewport, the hamburger is hidden and the actual navbar is displayed.  -->
     <nav class="navbar navbar-inverse navbar-expand-md fixed-top navbar-light bg-light border-bottom p-2">
-        <a class="navbar-brand" href="#">Stitchbricks</a>
+	
+        <a class="navbar-brand" href="./Index.html">Stitchbricks</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,25 +42,32 @@
             </ul>
         </div>
     </nav>
-    <main role="main" id="my-main">
+	
+	
+    <main role="main">
         <div class="jumbotron jumbotron-fluid" id="jumbotron-custom">
             <div class="container" id="jumbo-container">
-                <h3 class="display-3" id="my-logo">Welcome to StitchBricks</h3>
+                <h3 class="display-3" id="my-logo">Welcome to StitchBricks!</h3>
                 <p>Yet another site dedicated to all things knit!</p>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row p-3">
-                <div class="col-md-4 offset-lg-1 col-lg-3 my-article mb-1">
+		<!-- This should be transformed into a card deck -->
+		<!-- class .container picked over .container-fluid because I want to have a reduced width for content without specifiing offsets margins or manual max width -->
+		<!-- for min-width of viewport of 1200px the container, hence the row, size will be 1140 px. For medium screens of min 992 px, the container and the nested row size is 960 px. and so on -->
+
+        <div class="container">
+			<div class="row p-3">
+                <div class="col-12 col-md-4 my-article mb-1">
                     <div class="card h-100 bg-light p-1 m-1">
                         <div class="card-body d-flex flex-column">
                             <h2>Quirky mitts</h2>
                             <p> Different approach to fingerless mitt design.</p>
+							
                             <a class="btn btn-secondary align-self-end mt-auto" href="# " role="button ">Read more &raquo;</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3 my-article mb-1">
+                <div class="col-12 col-md-4 my-article mb-1">
                     <div class="card h-100 bg-light d-flex flex-column p-1 m-1">
                         <div class="card-body d-flex flex-column">
                             <h2>Wanderer's slippers</h2>
@@ -70,8 +77,7 @@
 
                     </div>
                 </div>
-
-                <div class="col-md-4 col-lg-3 my-article mb-1">
+                <div class="col-12 col-md-4 my-article mb-1">
                     <div class="card h-100 bg-light d-flex flex-column p-1 m-1">
                         <div class="card-body d-flex flex-column">
                             <h2>Legwarmers</h2>
@@ -82,11 +88,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-		 
-
-    </main>
-	<footer class="footer mt-3 container-fluid bg-light border-top">
+        </div> 
+  </main>
+	<footer class="footer mt-3 container border-top">
             <p class=" p-2 "> Copyright 2021</p>
         </footer>
 	 <script src="js/myjs.js"></script>      

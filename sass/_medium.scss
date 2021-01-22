@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px) {
+		h3 {
+		color: FireBrick;
+		font-family: 'Amatic SC', cursive;
+		font-weight: 700;
+	}
+	
+	h2 {
+		
+		font-family: 'Amatic SC', cursive;
+		font-weight: 700;
+	}
+	
+	.my-article{
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+	
+#jumbo-container {
+    padding: 4rem;
+    text-align: right;
+}
+} /* end of media query*/
