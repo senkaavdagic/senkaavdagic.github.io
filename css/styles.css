@@ -11,6 +11,77 @@ h3 {
 .card-img-overlay h5 {
   color: white; }
 
+.my-card:hover {
+  transition: transform 1s ease;
+  transform: scale(1.1); }
+
+* {
+  transition: 0.3s; }
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%; }
+
+.modal-body, .modal-header {
+  padding: 0;
+  border: none; }
+
+.modal-footer {
+  padding: 5px;
+  border-style: none; }
+
+.modal-content {
+  background: none;
+  border: none; }
+
+/*Terrible looking white color shadow beneath the blackish letter X. Had to remove it. Drove me nuts.*/
+#my-close-btn {
+  position: relative;
+  text-shadow: none;
+  color: #ffffff7a; }
+
+/*The two properties refer to the letter X used to closed the carousel. They ensure the lightest font is rendered in the browser as I wanted it very very thin.*/
+#my-close-btn span {
+  -webkit-font-smoothing: antialiased;
+  font-weight: 100; }
+
+/*It pops slightly up when you hover over the X in the top right corner.*/
+#my-close-btn:hover {
+  top: -3px; }
+
+/*When the x is pressed to close the carousel, it pops up a bit, becomes slightly bigger and the default outline (the button borders are removed)*/
+#my-close-btn:focus {
+  border-style: none;
+  transform: scale(1.3);
+  color: #fff;
+  outline: none; }
+
+#my-close-btn-foot {
+  border: solid 1px white;
+  color: white;
+  background: none;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 100; }
+
+#my-close-btn-foot:hover {
+  transform: scale(1.1);
+  background: none;
+  border: solid 1px white; }
+
+#my-close-btn-foot:focus {
+  background: white;
+  color: black;
+  border: none; }
+
+#my-close-btn-foot:active {
+  background: white;
+  color: black;
+  border: none; }
+
+.carousel-item img {
+  display: block;
+  margin: 0; }
+
 @media only screen and (min-width: 768px) {
   h3 {
     color: FireBrick;
