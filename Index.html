@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>StitchBricks</title>
+    <meta name="author" content="StitchBricks">
+    <meta name="description" content="House of yarn and needle crafts front">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+
+<body>
+<!-- navbar-expand-md means that at the md size of viewport, the hamburger is hidden and the actual navbar is displayed.  -->
+    <nav class="navbar navbar-inverse navbar-expand-md fixed-top navbar-light bg-light border-bottom p-2">
+	
+        <a class="navbar-brand" href="./Index.html">Stitchbricks</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="./Index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Inspirations.html">Inspirations</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Techniques.html">Techniques</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="./About.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+	
+	
+    <main role="main">
+        <div class="jumbotron jumbotron-fluid" id="jumbotron-custom">
+            <div class="container" id="jumbo-container">
+                <h3 class="display-3" id="my-logo">Welcome to StitchBricks!</h3>
+                <p>Yet another site dedicated to all things knit!</p>
+            </div>
+        </div>
+		<!-- This should be transformed into a card deck -->
+		<!-- class .container picked over .container-fluid because I want to have a reduced width for content without specifiing offsets margins or manual max width -->
+		<!-- for min-width of viewport of 1200px the container, hence the row, size will be 1140 px. For medium screens of min 992 px, the container and the nested row size is 960 px. and so on -->
+
+        <div class="container">
+			<div class="row p-3">
+                <div class="col-12 col-md-4 my-article mb-1">
+                    <div class="card h-100 bg-light p-1 m-1">
+                        <div class="card-body d-flex flex-column">
+                            <h2>Quirky mitts</h2>
+                            <p> Different approach to fingerless mitt design.</p>
+							
+                            <a class="btn btn-secondary align-self-end mt-auto" href="# " role="button ">Read more &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-article mb-1">
+                    <div class="card h-100 bg-light d-flex flex-column p-1 m-1">
+                        <div class="card-body d-flex flex-column">
+                            <h2>Wanderer's slippers</h2>
+                            <p> Notes and work in progress</p>
+                            <a class="btn btn-secondary align-self-end mt-auto" href="# " role="button ">Read more &raquo;</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-article mb-1">
+                    <div class="card h-100 bg-light d-flex flex-column p-1 m-1">
+                        <div class="card-body d-flex flex-column">
+                            <h2>Legwarmers</h2>
+                            <p> Very stretchy leg warmers for little ice skaters.</p>
+                            <p>Cast on with jeny's surprisingly stretchy cast on and work in 2x2 rib. </p>
+                            <a class="btn btn-secondary align-self-end mt-auto" href="# " role="button ">Read more &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+		<!-- Add load more content button and eventually show less button, try for lazy loading. -->
+	<!-- Something like this: https://codepen.io/Tigran_91/pen/JyaZPz -->
+  </main>
+	<footer class="footer mt-3 container border-top">
+            <p class=" p-2 "> Copyright 2021</p>
+        </footer>
+	 <script src="js/myjs.js"></script>      
+</body>
+
+</html>

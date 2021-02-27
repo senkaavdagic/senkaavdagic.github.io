@@ -1,21 +1,24 @@
+html {
+    height: 100%;
+}
+
 body {
     padding-top: 3.5rem;
+	height: 100%;
+	
 }
 
-#jumbo-container {
-    padding: 4rem;
-    text-align: right;
-}
 
-#my-footer {
-    border-top: thin solid #b4b5b8;
-    min-height: 4rem;
-}
 
 .footer {
-    min-height: 4rem;
+   
+	margin-top: auto;
+	min-height: 10vh;
+	
 }
 
 .footer p {
     margin-bottom: 0%;
+	
 }
+
